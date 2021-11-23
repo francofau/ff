@@ -11,7 +11,7 @@
         <!-- Font Awesome-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- CSS-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -21,21 +21,19 @@
         <!--NAV con id propio-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
             <a class="navbar-brand" href="#arriba">
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile1.jpg"/></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/prof2.png"/></span>
             </a>
             
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#inicio"><i class="fas fa-home"></i> INICIO</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experiencia"><i class="fas fa-briefcase"></i> EXPERIENCIA</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formacion"><i class="fas fa-university"></i> FORMACIÓN</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="fas fa-code"></i> PORTFOLIO</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto"><i class="fas fa-hand-point-right"></i> CONTACTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#inicio">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia"> EXPERIENCIA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacion">FORMACIÓN</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="https://github.com/francofau" target="_blank"">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
                 </ul>
             </div>
-        </nav>
-
-        
+        </nav>        
         <div class="container-fluid p-0">
             <!-- INICIO-->
             <section class="resume-section min-vh-100" id="inicio">
@@ -44,15 +42,16 @@
                         FRANCO FAUDA
                     </h1>
                     <div class="subtitulos mb-5">
-                        Desarrollador PHP | En proceso
+                        Desarrollador Laravel |
+                        Analista de Sistemas
                     </div>
-                    <p class="pa mb-5">Soy un joven argentino apasionado por la tecnología. Actualmente vivo en España y estoy en busca de mi primera experiencia laboral en el mundo TIC. Mi idea es sumarme a una empresa del sector para desarrollarme profesional y personalmente</p>
+                    <p class="pa mb-5">Actualmente resido en España y estoy en busca de una nueva experiencia laboral y sumarme a una empresa del sector TIC/IT para continuar mi desarrollo profesional y personal</p>
                     <div class="social-icons row g-2">
                         <a class="social-icon linkedin" href="https://www.linkedin.com/in/francofauda/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon github" href="https://github.com/francofau" target="_blank""><i class="fab fa-github"></i></a>
                         <a class="social-icon ws" href="https://api.whatsapp.com/send?phone=34644193865"_blank""><i class="fab fa-whatsapp"></i></a>                        
                         <a class="social-icon email" href="mailto:fnc_22@hotmail.com"><i class="fas fa-envelope"></i></a>
-                        <a class="social-icon cv" href="https://drive.google.com/uc?id=1bd7qDCVeqApq8no3Vl8c_wvDUGk1DyJf&export=download"><i class="fas fa-address-card"></i></a>
+                        <a class="social-icon cv" href="https://drive.google.com/uc?id=1fTVlXLku8gf3Eux8m9uL06P7s7e76nVW&export=download"><i class="fas fa-address-card"></i></a>
                     </div>
                 </div>
             </section>
@@ -120,7 +119,7 @@
             </section>
             <hr class="m-0" />
             <!-- PORTFOLIO-->
-            <section class="resume-section min-vh-100" id="portfolio">
+            <!-- <section class="resume-section min-vh-100" id="portfolio">
                 <div class="resume-section-content">
                     <h2 class="mb-6">PORTFOLIO</h2>
                     <div class="subtitulos mb-3">En esta sección se mostraran los proyectos desarrollados en el Bootcamp PHP/Laravel</div>                        
@@ -141,8 +140,8 @@
                                 <a href="https://francofau.github.io/calculadoraJS/" target="_blank" class="btn btn-primary">Probarla!</a>
                             </div>
                         </div>      
-                    </div> <!-- cards -->
-                     <div class="cards row mt-2" > 
+                    </div> 
+                    <div class="cards row mt-2" > 
                         <div class="card col-12 col-sm-6">
                             <h5 class="card-header text-center">TicTacToe</h5>     
                             <img src="img/ttt.png" class="card-img-top p-3" alt="TicTacToe">
@@ -159,10 +158,10 @@
                                 <a href="https://francofau.github.io/tiendaDragDrop/" target="_blank" class="btn btn-primary">Probarla!</a>
                             </div>
                         </div>      
-                    </div>       
+                    </div>     
                 </div>
   
-            </section>
+            </section> -->
             <hr class="m-0" />
             <!-- CONTACTO oculto en dispositivos móviles por el momento-->
             <section class="resume-section d-none d-lg-block min-vh-100" id="contacto">
@@ -188,8 +187,8 @@
                                 <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
                             </div>
                             <div class="form-group">                
-                                <input type="submit" class="btn btn-success mt-3" value="Confirmar envío" onclick="enviado()">      
-                                <input type="reset" class="btn btn-dark mt-3 " onclick="reset();" value="Borrar formulario">              
+                                <input type="submit" class="btn btn-success mt-3" value="Enviar" onclick="enviado()">      
+                                <input type="reset" class="btn btn-dark mt-3 " onclick="reset();" value="Cancelar">              
                             </div>
                             <div id="respuesta" style="display: none;"></div>
                         </form>
